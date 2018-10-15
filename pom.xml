@@ -10,7 +10,7 @@
     <repository>
       <id>my-repo2</id>
       <name>public</name>
-      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/groups/public/</url>
+      <url>http://10.112.71.196:8081/nexus/content/groups/public/</url>
     </repository>
     <repository>
       <id>my-repo1</id>
@@ -30,12 +30,12 @@
     <repository>
       <id>myapp-releases</id>
       <name>myapp-releases</name>
-      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/repositories/myapp-releases/</url>
+      <url>http://10.112.71.196:8081/nexus/content/repositories/myapp-rel/</url>
     </repository>
     <snapshotRepository>
       <id>myapp-snapshots</id>
       <name>myapp-snapshots</name>
-      <url>http://ip-172-31-23-20.ap-south-1.compute.internal:8081/nexus/content/repositories/myapp-snapshots/</url>
+      <url>http://10.112.71.196:8081/nexus/content/repositories/myapp-snap/</url>
     </snapshotRepository>
 </distributionManagement>
 
