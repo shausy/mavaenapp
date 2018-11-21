@@ -6,7 +6,6 @@
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>my-app</name>
-  <useSystemClassLoader>false</useSystemClassLoader>
   <repositories>
     <repository>
       <id>my-repo2</id>
@@ -39,12 +38,4 @@
       <url>http://10.112.71.196:8081/nexus/content/repositories/myapp-snap/</url>
     </snapshotRepository>
 </distributionManagement>
-       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>2.22.1</version>
-        <configuration>
-          <useSystemClassLoader>false</useSystemClassLoader>
-        </configuration>
-      </plugin>
 </project>
